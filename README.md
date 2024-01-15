@@ -1,2 +1,2 @@
 # Video-Game-Reviews-NextJs
-A webpage which show video games reviews
+A webpage which show video games reviews and informations
