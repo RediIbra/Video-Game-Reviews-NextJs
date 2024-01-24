@@ -9,7 +9,7 @@ export default function NavBar() {
             href="/"
             className="font-bold font-orbitron text-orange-800 hover:underline"
           >
-            Indie Gamer
+            Tirana Gaming
           </Link>
         </li>
         <li className="ml-auto">
