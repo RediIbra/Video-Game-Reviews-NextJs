@@ -33,7 +33,7 @@ export async function getReviews(): Promise<Review[]> {
     const review = await getReview(slug);
     reviews.push(review);
   }
-  reviews.sort((a, b) => a.date.localeCompare(b.date));
+  reviews.sort((a, b) => b.date.localeCompare(a.date));
 
   return reviews;
 }

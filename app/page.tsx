@@ -4,11 +4,10 @@ import { getFeaturedReview } from "@/lib/reviews";
 
 export default async function HomePage() {
   const review = await getFeaturedReview();
-  console.log("[HomePage] rendering");
   return (
     <>
       <Heading>Tirana Gaming</Heading>
-      <p className="pb-3">Only the best games, reviewed for you.</p>
+      <p className="pb-3">Best game, recommended for you.</p>
       <div
         className="bg-white border rounded shadow w-80
                       hover:shadow-xl sm:w-full"
