@@ -1,4 +1,4 @@
-#Static Page made with NextJS
+# Static Page made with NextJS
 A webpage that shows the best video games for 2024 with their reviews and information.<br>
 Live at: https://next-reviews-vidogames.netlify.app<br>
 
