@@ -6,6 +6,9 @@ import { orbitron, exo2 } from "./fonts";
 interface LaoutProps {
   children: ReactNode;
 }
+export const metadata = {
+  title: { default: "Indie Gamer", template: "%s | Indie Gamer" },
+};
 
 export default function RootLayout({ children }: LaoutProps) {
   return (
